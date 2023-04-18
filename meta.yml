@@ -1,0 +1,21 @@
+name: FourInOne!
+description: 
+    This challenge will familiarize you with encryption, stegonagraphy and command injection.
+
+    **Connection Instructions**:
+  
+    Will be updated after integrating the CTF on Swarm.
+  
+    Do the following:
+
+    Challenge 1. Go to http://localhost:8000/stegimg. This challenge requires downloading a tool from the web.
+    Challenge 2. Go to http://localhost:8000/stegaud. This challenge requires downloading a tool from the web.
+    Challenge 3. Go to http://localhost:8000/flag. This challenge will require searching the web and using a programming language like Python.
+    Challenge 4. Go to http://localhost:8000/cat/form. This challenge requires knowing how to perform command injection on the web.
+
+value: 400
+category: Stegonagraphy, Command Injection and Encryption
+flags: CTF_SDaT{Command_Injection!}, CTF_SDaT{Image_Stegonagraphy!}, CTF_SDaT{Audio_Stegonagraphy!}, CTF_SDaT{hglyaf!}
+
+# administrative
+container_name: python-docker-ctf-1

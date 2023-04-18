@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Stock Prices Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <table class="table">
+        <tr><th>Companies</th></tr>
+        <tr>
+            <td >Amazon</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Oracle</td>
+        </tr>
+    </table>
+
+
+    <form class="companyform" action="http://localhost:8000/cat/output" method="post">
+        <p>Enter company:</p>
+        <input type="text" name="stock" value="Amazon" />
+        <input type="submit" class="submitBtn" value="Get Stock Price" />
+    </form>
+</body>
+</html>

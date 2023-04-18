@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Stegonagraphy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <h1 class="steg">A song on the web </h1>
+    <video controls="" autoplay="" class="steg">
+        <source src="{{ url_for('static', filename='audio/stegog.wav') }}" type="audio/x-wav">
+    </video>
+</body>
+</html>

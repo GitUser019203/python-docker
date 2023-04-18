@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CTF Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<script>
+    function gotoStegImage() {
+        window.location.href="http://localhost:8000/stegimg";  
+      }
+    function gotoStegMusic() {
+        window.location.href="http://localhost:8000/stegaud";  
+      }
+    function gotoFlag() {
+        window.location.href="http://localhost:8000/flag";  
+      }
+function gotoPing() {
+        window.location.href="http://localhost:8000/cat/form";  
+      }
+
+
+</script>
+<body>
+    <h1>CTF web app by Mathew K John</h1>
+    <button class="button" onclick="gotoStegImage()"> View an image</button>
+    <button class="button button2" onclick="gotoStegMusic()"> Hear music</button>
+    <button class="button button3" onclick="gotoFlag()"> Decrypt a flag</button>
+    <button class="button button4" onclick="gotoPing()"> Get a stock price</button>
+</body>
+</html>
