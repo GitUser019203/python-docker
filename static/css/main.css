@@ -3,15 +3,16 @@
 */
 
 h1.title {
-    font-size: 30px;
+    font-size: 50px;
     margin: auto;
     width: 50%;
-    text-align:center;
-    padding-bottom: 5%;
+    padding-bottom:5%;
+    text-align: center;
+    background-color: white;
 }
 
 .docGrid {
-    padding-top: 5%;
+    padding-top: 2%;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -80,6 +81,19 @@ video.steg {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+/*
+    Encryption Challenge CSS begins
+*/
+
+h1.large {
+    font-size: 70px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding-bottom: 5%;
+    background-color: white;
 }
 
 .companyform {
